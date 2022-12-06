@@ -2,6 +2,9 @@
 class Student {
   List<Data>? data;
   Student({this.data});
+
+  
+
   Student.fromJson(Map<String, dynamic> json) {
     if (json['data'] != null) {
       data = <Data>[];
